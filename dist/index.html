@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
@@ -66,32 +67,30 @@
   <div class="container pt-5">
     <h3 class="font-4 color-dark font-bold text-center">經典系列鏡框</h3>
     <ul>
-      <li class="d-flex align-items-center pb-4 pb-sm-0 content-diamond justify-sm-content-center">
+      <li class="d-flex align-items-center pb-4 pb-sm-0 content-diamond justify-sm-content-center" data-aos="fade-left">
         <img src="./assets/images/product-1.png" class="content-item-img" alt="">
         <div class="content-text ml-3 d-flex align-items-center">
           <div class="content-icon-diamond content-icon"></div>
-          <p class="">
-            <!-- <img src="./assets/images/icon-diamond.svg" alt=""> -->
+          <p>
             optical
           </p>
         </div>
       </li>
-      <li class="d-flex align-items-center pb-4 pb-sm-0 flex-lg-row-reverse content-sun justify-sm-content-center">
+      <li class="d-flex align-items-center pb-4 pb-sm-0 flex-lg-row-reverse content-sun justify-sm-content-center"
+        data-aos="fade-right">
         <img src="./assets/images/product-2.png" class="content-item-img" alt="">
         <div class="content-text mr-lg-3 ml-md-3 d-flex align-items-center">
           <div class="content-icon-sun content-icon"></div>
-          <p class="">
-            <!-- <img src="./assets/images/icon-sun.svg" alt=""> -->
+          <p>
             sunglasses
           </p>
         </div>
       </li>
-      <li class="d-flex align-items-center content-thunder justify-sm-content-center">
+      <li class="d-flex align-items-center content-thunder justify-sm-content-center" data-aos="fade-left">
         <img src="./assets/images/product-3.png" class="content-item-img" alt="">
         <div class="content-text ml-3 d-flex align-items-center">
           <div class="content-icon-thunder content-icon"></div>
-          <p class="">
-            <!-- <img src="./assets/images/icon-thunder.svg" alt=""> -->
+          <p>
             functional
           </p>
         </div>
@@ -111,7 +110,7 @@
   <div class="container pt-5 d-flex align-items-center flex-column">
     <h3 class="font-4 font-bold text-center mb-3 color-light">顧客推薦</h3>
     <ul class="d-flex flex-md-wrap justify-content-center">
-      <li class="card mb-md-3  mx-md-1">
+      <li class="card mb-md-3  mx-md-1" data-aos="zoom-in-left">
         <img src="./assets/images/rec-1.png" height="256px">
         <div class="card-body">
           <h4 class="card-title font-width-6">Jessy</h4>
@@ -120,7 +119,7 @@
           <p class="card-footer">Last updated 3 mins ago</p>
         </div>
       </li>
-      <li class="card mx-3 mb-md-3 mx-md-1">
+      <li class="card mx-3 mb-md-3 mx-md-1" data-aos="zoom-in-up">
         <img src="./assets/images/rec-2.png" height="256px">
         <div class="card-body">
           <h4 class="card-title font-width-6">Karen</h4>
@@ -129,7 +128,7 @@
           <p class="card-footer">Last updated 3 mins ago</p>
         </div>
       </li>
-      <li class="card mr-3 mx-md-1">
+      <li class="card mr-3 mx-md-1" data-aos="zoom-in-up">
         <img src="./assets/images/rec-3.png" height="256px">
         <div class="card-body">
           <h4 class="card-title font-width-6">Chelsea</h4>
@@ -138,7 +137,7 @@
           <p class="card-footer">Last updated 3 mins ago</p>
         </div>
       </li>
-      <li class="card mx-md-1">
+      <li class="card mx-md-1" data-aos="zoom-in-right">
         <img src="./assets/images/rec-4.png" height="256px">
         <div class="card-body">
           <h4 class="card-title font-width-6">Jane</h4>
@@ -219,6 +218,11 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
