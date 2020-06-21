@@ -1,0 +1,17 @@
+@import "base/reset"; // reset.css
+@import "utils/variable"; // 變數
+@import "base/base"; // 全站設定
+@import "utils/util"; // 工具類 class，.mb-1、.pr-3
+
+@import "components/form";
+@import "components/button";
+@import "components/card";
+@import "components/list";
+
+// layout 共同框架,第一層
+@import "layout/header";
+@import "layout/footer";
+
+// 頁面設計
+@import "pages/index";
+@import "pages/faq";

@@ -1,0 +1,58 @@
+.faq-banner {
+    background-image: url(../images/qa.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 214px;
+
+    img {
+        margin-left: 11px;
+    }
+
+    @media (max-width:992px) {
+        padding-top: 237px;
+
+        img {
+            margin-left: 16px;
+        }
+    }
+
+    @media(max-width:768px) {
+        padding-top: 103px;
+
+        img {
+            width: 24px;
+            height: 24px;
+            margin-left: 8px;
+        }
+    }
+}
+
+.question {
+    padding-top: 88px;
+    padding-bottom: 156px;
+
+    h4 {
+        font-size: 32px;
+    }
+
+    @media (max-width:992px) {
+        padding-top: 40px;
+        padding-bottom: 104px;
+
+        h4 {
+            font-size: 28px;
+            padding-bottom: 15px;
+        }
+    }
+
+    @media(max-width:768px) {
+        padding-top: 24px;
+        padding-bottom: 56px;
+
+        h4 {
+            font-size: 20px;
+            padding-bottom: 16px;
+        }
+    }
+}

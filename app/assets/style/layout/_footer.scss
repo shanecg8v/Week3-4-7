@@ -1,0 +1,133 @@
+.footer {
+    background-color: $primary;
+    padding-top: 36px;
+
+    * {
+        color: #ffffff;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .footer-social {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 24px;
+
+        .menu {
+            height: 48px;
+            margin-bottom: 18px;
+
+            li {
+                margin-right: 48px;
+                line-height: 48px;
+            }
+
+            li:nth-last-child(1) {
+                margin: 0;
+            }
+        }
+
+        .icon {
+            li {
+                margin-right: 32px;
+            }
+
+            li:nth-last-child(1) {
+                margin: 0;
+            }
+        }
+    }
+
+    .footer-communication {
+        padding-bottom: 24px;
+
+        p:nth-child(1) {
+            margin-bottom: 16px;
+
+            img {
+                margin-right: 28px;
+            }
+        }
+
+        img {
+            margin-right: 16px;
+        }
+    }
+
+    .footer-copyright {
+        padding-bottom: 28px;
+
+        img {
+            margin-right: 38px;
+        }
+
+        a {
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        a:nth-child(1) {
+            margin-right: 62px;
+        }
+    }
+
+    @media(max-width:992px) {
+        .icon {
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .footer-communication {
+            img {
+                width: 32px;
+                height: 32px;
+            }
+
+            p:nth-child(1) {
+                margin-bottom: 16px;
+
+                img {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+        .footer-social {
+            margin-bottom: 16px;
+        }
+
+        .footer-copyright {
+            position: relative;
+
+            .logo {
+                display: block;
+                width: 46px;
+                height: 28px;
+                margin-right: 0;
+                position: absolute;
+                right: 0;
+                bottom: 28px;
+            }
+        }
+
+        .footer-communication {
+            img {
+                width: 13px;
+                height: 13px;
+            }
+
+            p:nth-child(1) {
+                margin-bottom: 16px;
+
+                img {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-control {
+    padding: 14px 16px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+}
+
+.form-label {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form-check {
+    display: flex;
+    width: 100%;
+}
